@@ -10,10 +10,11 @@
 		1FFB058AA4FF6021E84BF65E /* Pods_ObservableExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5088A9F98B17C4CCF0BA1BA /* Pods_ObservableExample.framework */; };
 		607FAC6E289347D400DFE9CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FAC6D289347D400DFE9CA /* AppDelegate.swift */; };
 		607FAC70289347D400DFE9CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FAC6F289347D400DFE9CA /* SceneDelegate.swift */; };
-		607FAC72289347D400DFE9CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FAC71289347D400DFE9CA /* ViewController.swift */; };
+		607FAC72289347D400DFE9CA /* PrimeroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FAC71289347D400DFE9CA /* PrimeroViewController.swift */; };
 		607FAC75289347D400DFE9CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FAC73289347D400DFE9CA /* Main.storyboard */; };
 		607FAC77289347D700DFE9CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FAC76289347D700DFE9CA /* Assets.xcassets */; };
 		607FAC7A289347D700DFE9CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FAC78289347D700DFE9CA /* LaunchScreen.storyboard */; };
+		607FAC822893494500DFE9CA /* SegundoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FAC812893494500DFE9CA /* SegundoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,11 +23,12 @@
 		607FAC6A289347D400DFE9CA /* ObservableExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObservableExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FAC6D289347D400DFE9CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FAC6F289347D400DFE9CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		607FAC71289347D400DFE9CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		607FAC71289347D400DFE9CA /* PrimeroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeroViewController.swift; sourceTree = "<group>"; };
 		607FAC74289347D400DFE9CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FAC76289347D700DFE9CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		607FAC79289347D700DFE9CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		607FAC7B289347D700DFE9CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		607FAC812893494500DFE9CA /* SegundoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegundoViewController.swift; sourceTree = "<group>"; };
 		A5088A9F98B17C4CCF0BA1BA /* Pods_ObservableExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObservableExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -56,7 +58,6 @@
 				03110814573153AD79E07CF6 /* Pods-ObservableExample.debug.xcconfig */,
 				5D4880FC60D3FDE4EE232777 /* Pods-ObservableExample.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -83,11 +84,12 @@
 			children = (
 				607FAC6D289347D400DFE9CA /* AppDelegate.swift */,
 				607FAC6F289347D400DFE9CA /* SceneDelegate.swift */,
-				607FAC71289347D400DFE9CA /* ViewController.swift */,
+				607FAC71289347D400DFE9CA /* PrimeroViewController.swift */,
 				607FAC73289347D400DFE9CA /* Main.storyboard */,
 				607FAC76289347D700DFE9CA /* Assets.xcassets */,
 				607FAC78289347D700DFE9CA /* LaunchScreen.storyboard */,
 				607FAC7B289347D700DFE9CA /* Info.plist */,
+				607FAC812893494500DFE9CA /* SegundoViewController.swift */,
 			);
 			path = ObservableExample;
 			sourceTree = "<group>";
@@ -207,8 +209,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FAC72289347D400DFE9CA /* ViewController.swift in Sources */,
+				607FAC72289347D400DFE9CA /* PrimeroViewController.swift in Sources */,
 				607FAC6E289347D400DFE9CA /* AppDelegate.swift in Sources */,
+				607FAC822893494500DFE9CA /* SegundoViewController.swift in Sources */,
 				607FAC70289347D400DFE9CA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
